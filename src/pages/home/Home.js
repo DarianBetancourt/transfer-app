@@ -1,8 +1,12 @@
 import React from 'react';
+import {Calculator} from '../../components';
 
 export function Home () {
     return (
-        <h1>Home</h1> 
+        <div className='container'>
+            <h1>Home</h1>
+            <Calculator/> 
+        </div>
     )
     
 }
